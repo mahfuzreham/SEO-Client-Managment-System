@@ -1,0 +1,3 @@
+CREATE TABLE clients(id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(255),website VARCHAR(255),package_name VARCHAR(50),start_date DATE,end_date DATE,status VARCHAR(50));
+CREATE TABLE keywords(id INT AUTO_INCREMENT PRIMARY KEY,client_id INT,keyword_name VARCHAR(255),current_rank INT);
+CREATE TABLE backlinks(id INT AUTO_INCREMENT PRIMARY KEY,client_id INT,domain_name VARCHAR(255),status VARCHAR(50));
