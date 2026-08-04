@@ -1,0 +1,1 @@
+<?php session_start(); ?><!DOCTYPE html><html><body><h2>Admin Login</h2><form><input placeholder='Email'><input type='password' placeholder='Password'><button>Login</button></form></body></html>
