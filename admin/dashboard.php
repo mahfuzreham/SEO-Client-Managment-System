@@ -1,0 +1,1 @@
+<?php session_start(); ?><!DOCTYPE html><html><body><h1>SEO Dashboard</h1><div>Total Clients: 0</div><div>Total Projects: 0</div></body></html>
