@@ -1,0 +1,3 @@
+<?php
+// Backlink module placeholder
+?>
