@@ -1,0 +1,12 @@
+RewriteEngine On
+Options -Indexes
+
+# Block direct access to sensitive files
+<FilesMatch "(^\.env|database\.sql|composer\.(json|lock)|package-lock\.json)$">
+    Require all denied
+</FilesMatch>
+
+# Route non-existing files to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
