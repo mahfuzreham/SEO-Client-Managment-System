@@ -1,0 +1,3 @@
+<?php
+session_start();
+?><!DOCTYPE html><html><head><title>Client Login</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"></head><body><div class="container mt-5"><form><input class="form-control mb-2" placeholder="Email"><input class="form-control mb-2" type="password" placeholder="Password"><button class="btn btn-primary">Login</button></form></div></body></html>
