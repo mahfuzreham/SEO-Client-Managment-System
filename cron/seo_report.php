@@ -1,0 +1,3 @@
+<?php
+// Scheduled report generator
+?>
