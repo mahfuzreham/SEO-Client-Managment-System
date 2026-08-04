@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; }
+.card { border-radius: 16px; }
+.table thead th { white-space: nowrap; }
+.progress { height: 10px; }
